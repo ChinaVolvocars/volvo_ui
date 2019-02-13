@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--********************dialog**********************-->
+	<style name="Vo.Dialog" parent="android:Theme.Dialog">
+		<item name="android:backgroundDimAmount">?attr/vo_dialog_background_dim_amount</item>
+		<item name="android:windowBackground">@color/vo_config_color_transparent</item>
+		<item name="android:windowNoTitle">true</item><!-- 不用window title，使用自己的layout来做title -->
+		<!-- <item name="android:windowTitleStyle">@style/dialog_title</item> --><!-- 不用设置windowStyleStyle，因为windowNoTitle=true -->
+		<item name="android:windowIsFloating">true</item><!-- 在中间弹框、背后有遮罩的效果 -->
+	</style>
+
+</resources>
